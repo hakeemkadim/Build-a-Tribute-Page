@@ -3,27 +3,129 @@
   <head>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Visit Morocco- Product Landing Page</title>
+
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-
-    <h1>Hello World</h1>
-    <h2>We are software Developers!</h2>
+        <header id="header">
+            <div class="logo">
+                <img id="header-img" src="https://seeklogo.com/images/R/royaume-du-maroc-kingdom-of-morocco-logo-CE824856A6-seeklogo.com.png" alt="Morocco logo">
+            </div>
+            <nav id="nav-bar">
+                <ul id="ul-navbar">
+                    <li><a class="nav-link" href="#about">Morocco</a></li>
+              
+                    <li><a class="nav-link" href="#destinations">Destinations</a></li>
+                    <li><a class="nav-link" href="#newsletter">Newsletter</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-doc">
+            
+            <section class="main-section" id="about">
+                <header class="section-title">About<hr></header>
+                <article>
+                    <p id="about-pt">Morocco, officially referred to as the Kingdom of Morocco is a country located in North Africa with a population of nearly 34 million. Morocco has a coast on the Atlantic Ocean that reaches past the Strait of Gibralter into the Mediterranean Sea. Morocco has international borders with Algeria to the east, Spain to the north (a water border through the Strait and land borders with two small Spanish autonmous cities, Ceuta and Meillia) and Maurtania to south via its Western Sahara territories. <br> <h3>COME AND DISCOVER THE CHARMS OF THIS COUNTRY.</h3></p>
+                   
+                   
+                  
+                    <div class="box-shadow">
+                        <div id="pt-summary">
+                            <ul id="ul-summary">
+                                <li class="li-summary">
+                                    <div class="bullet-image" id="history"></div>
+                                    <h4 class="bullet-text">Great History</h2>
+                                </li>
+                                <li class="li-summary">
+                                    <div class="bullet-image" id="beaches"></div>
+                                    <h4 class="bullet-text">Amazing beaches</h2>
+                                </li>
+                                <li class="li-summary">
+                                    <div class="bullet-image" id="food"></div>
+                                    <h4 class="bullet-text">Delicious food</h2>
+                                </li>
+                            </ul>
+                            <div id="trailer">
+                       
+                       <iframe allowFullScreen="allowFullScreen" src="https://www.youtube.com/embed/tJyrExKmGLs?ecver=1&amp;autoplay=1&amp;iv_load_policy=1&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560" width="560" height="500" allowtransparency="true" frameborder="0"><div>all about <a rel=nofollow id=1Lbf06Qq href=https://www.comparetyres.com/help/winter-tyres>winter tyres</a> here</div><div><a rel=nofollow id=1Lbf06Qq href=https://www.sellcompare.co.uk/apple/phone/Apple_iPhone_X_256GB>here</a></div><script>function execute_YTvideo(){return youtube.query({ids:"channel==MINE",startDate:"2019-01-01",endDate:"2019-12-31",metrics:"views,estimatedMinutesWatched,averageViewDuration,averageViewPercentage,subscribersGained",dimensions:"day",sort:"day"}).then(function(e){},function(e){console.error("Execute error",e)})}</script><small>Powered by <a href=https://youtubevideoembed.com/>Embed YouTube Video</a></small></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+           
+            <section class="main-section" id="destinations">
+                <header class="section-title">Destinations</header>
+                <article>
+                    <div class="dest-all">
+                        <div class="dest-each">
+                            <div class="dest-image" id="Marrakech">
+                                <h3 class="dest-title">Marrakech</h3>
+                            </div>
+                        </div>
+                        <div class="dest-each">
+                            <div class="dest-image" id="Agadir">
+                                <h3 class="dest-title">Agadir</h3>
+                            </div>
+                        </div>
+                        <div class="dest-each">
+                            <div class="dest-image" id="RABAT">
+                                <h3 class="dest-title">RABAT</h3>
+                            </div>
+                        </div>
+                        <div class="dest-each">
+                            <div class="dest-image" id="Casablanca">
+                                <h3 class="dest-title">Casablanca</h3>
+                            </div>
+                        </div>
+                        <div class="dest-each">
+                            <div class="dest-image" id="Taroudant">
+                                <h3 class="dest-title">Taroudant</h3>
+                            </div>
+                        </div>
+                        <div class="dest-each">
+                            <div class="dest-image" id="Sahara">
+                                <h3 class="dest-title">Sahara</h3>
+                            </div>
+                        </div>
+                        <div class="dest-each">
+                            <div class="dest-image" id="Meknes">
+                                <h3 class="dest-title">Meknes</h3>
+                            </div>
+                        </div>
+                        <div class="dest-each">
+                            <div class="dest-image" id="Fés">
+                                <h3 class="dest-title">Fés</h3>
+                            </div>
+                        </div>
+                        <div class="dest-each">
+                            <div class="dest-image" id="Essaouira">
+                                <h3 class="dest-title"> Essaouira</h3>
+                            </div>
+                        </div>              
+                </article>
+    
+            </section>
+            <section class="main-section" id="newsletter">
+                <header class="section-title">Bookings</header>
+                <form id="form" action="emailto://www.freecodecamp.com/email-submit">
+                    <label id="email-label" for="email">Plan your trip! </label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+                    <input type="submit" id="submit" value="&#9992;">
+                </form>
+            </section>
+        </main>
+    <footer>
+        <div id="contact">
+            Product Landing Page for FreeCodeCamp Responsive Web Design Certification<br>
+           Made with ❤️ by <a id="dev-contact" target="_blank" href="https://www.instagram.com/hakeem_kadim/">Hakeem kadim</a>
+        </div>
+    </footer>
+  
     <script  src="js/index.js"></script>
   </body>
 </html>
